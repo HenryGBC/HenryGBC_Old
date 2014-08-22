@@ -22,5 +22,13 @@ $(function(){
 	 });
 
 
+/******************Isotope****************/
+
+ var $container = $('.skillContainer').isotope({
+ 	containerStyle: { position: 'relative'},
+    itemSelector: '.skill-item',
+    layoutMode: 'fitRows',
+  });
+
 
 });

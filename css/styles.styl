@@ -7,19 +7,159 @@ verde_success = #43ac6a
 
 body
 	font-size 16px
-	font-family: 'Varela Round', sans-serif
+	font-family: 'montserratregular', sans-serif
 	
-	
-.social
+header
 	font-size 1.5em
 	position fixed
 	width 100%
 	background #333333
-	padding 1em
+	padding 1.5em
 	top 0
 	opacity 0.95
-	span
-		color white
+	z-index 2
+.name
+	position absolute
+	color white
+	left 15%
+.blue
+	color blue
+.red
+	color red
+.black
+	color black
 
-.skills
-	background white
+.bio
+	background gris_mas_claro
+	padding 5em 0em
+	height 22em
+	margin 0 auto
+	position relative
+.desBio
+	h2
+		background black
+		color white
+		text-align center
+	h3
+		background black
+		color white
+		width 80%
+		text-align center
+		margin-top 1em
+	h4
+		background black
+		color white
+		width 70%
+		text-align center
+		margin-top 1em
+.avatar
+	position absolute
+	right 5em
+	margin 0 auto
+	img
+		width 20em
+		height auto
+
+.social
+	position absolute
+	left 63%
+	a
+		padding 0.5em
+		color white
+.socialBio
+	position relative
+	top 3em
+	a
+		padding 0.5em
+.skill
+	margin-top 2em
+	h2
+		text-align center
+		background black
+		color white
+		padding 0em 1em
+		width 30%
+		margin 0 auto
+.is-checked
+	background gris_oscuros
+.button-group
+	text-align center
+.skillContainer
+	margin 0 auto
+	text-align center
+
+
+.skill-item
+	border 1px solid gris_claro
+	display inline-block
+	padding 0.1em 0.5em
+	margin-top 0.5em
+
+.skillname
+	display inline-block
+	border-right 1px solid gris_claro
+	padding 0em 1em
+.por
+	display inline-block
+	padding 0em 1em
+	
+
+
+@media screen and (max-width:800px)
+
+	.name
+		left 0
+	.social
+		left 50%
+
+	.desBio
+		h2
+			font-size 1.5em
+		h3
+		h4	
+			width 100%
+
+
+@media screen and (max-width:600px)
+	
+	.social
+		left 40%
+
+
+@media screen and (max-width:500px)
+
+	.name
+		display none
+
+	.social
+		left 10%
+
+	.avatar
+		width 50%
+		right 0em
+
+@media screen and (max-width:400px)
+	.desBio
+		h2
+			font-size 1.3em
+		h3
+			font-size 1em
+		h4
+			font-size 1em
+
+@media screen and (max-width:360px)
+	
+	.bio
+		height 15em
+	.social
+		left 5%
+	.socialBio
+		top 0
+
+	.desBio
+		h2
+			font-size 1.1em
+		h3
+			font-size 0.9em
+		h4
+			font-size 0.8em

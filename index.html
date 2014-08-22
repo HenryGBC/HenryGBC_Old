@@ -7,14 +7,17 @@
 	<link rel="stylesheet" href="foundation/css/foundation.css" />
 	<link rel="stylesheet" href="css/styles.css">
     <script src="foundation/js/vendor/modernizr.js"></script>
+
     
    <!-- <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Trade+Winds' rel='stylesheet' type='text/css'>-->
 </head>
 <body>
 <header>
+        
+		<a href="" class="name">HenryGBC</a>
 		<div class="social" >
-		    <span>HenryGBC</span>
+		    
 			<a href="https://twitter.com/HenryGBC" class="twitter-icon">
 				<span class="icon-twitter "></span>
 			</a>
@@ -35,122 +38,103 @@
 		</div>
 
 </header>
-	<div>
-		<h2 >Soy Desarrollador</h2>
-		<div class="skill row ">
-			<figure class="skillimg small-12 medium-3 columns">
-				<img src="images/html5.png" alt="" width="50" height="50">
-
-				
-			</figure>
-			<article class="skillprogress small-12 medium-9 columns left-text">
-				<span class="name">HTML5</span>
-				<div class="progress small-12 success radius barra">
-					<span class="meter " style="width: 90%">
-						
-					</span>
-				</div>
-			</article>
-
+<section class="bio">
+	<div class="row">
+	<div class="small-6 medium-6 large-6 columns desBio">
+		<h2>Web Developer</h2>
+		<h3>Backend and Frontend</h3>
+		<h4>Computer Engineer</h4>
+		<div class="socialBio" >
+		    
+			<a href="https://twitter.com/HenryGBC" class="twitter-icon">
+				<span class="icon-twitter black"></span>
+			</a>
+			<a href="https://www.facebook.com/henry.bravo.1420" class="facebook-icon">
+				<span class="icon-facebook black"></span>
+			</a>
+			<a href="https://plus.google.com/u/0/+HenryBravo/posts" class="gplus-icon">
+				<span class="icon-google-plus black"></span>
+			<a href="http://www.linkedin.com/pub/henry-gabriel-bravo-casanova/83/155/b93" class="linkedin-icon">
+				<span class="icon-linkedin black"></span>
+			</a>
+			<a href="https://github.com/HenryGBC" class="github-icon">
+				<span class="icon-github black "></span>
+			</a>
+			<a href="http://hbravo_89@hotmail.com" class="mail-icon">
+				<span class="icon-envelope-o black"></span>
+			</a>
 		</div>
-		
-
-		 
 	</div>
+	<figure class="small-4 medium-4 large-4 columns avatar">
+		<img src="images/yo.JPG" alt="">
+	</figure>
+	</div>
+</section>
 
-	<section class="email">
-		<div class="contact">
-			<span>Dame tu Email y tu nombre y me pondré en contacto contigo</span>
+	<section class="skill">
+
+		<h2 >Skills</h2>
+		<div id="filters" class="button-group">  
+
+		  <button class="button is-checked" data-filter="*">show all</button>
+		  <button class="button" data-filter=".frontend">Frontend</button>
+		  <button class="button" data-filter=".backend">Backend</button>
+		  <button class="button" data-filter=".mobile">Mobile</button>
+		  <button class="button" data-filter=".others">Others</button>
+		 
+		</div>
+	<div class="row">
+	<div class="skillContainer ">
+		
+		<div class="skill-item small-12 medium-6 large-4 columns" data-category="frontend"  >
+		    <h4 class="skillname"><a href="">JavaScript</a></h4>
+		    <div class="por"><span>80%</span></div>
+		  </div>
+		  <div class="skill-item small-12 medium-6 large-4 columns" data-category="frontend"  >
+		    <h4 class="skillname"><a href="">HTML5</a></h4>
+		    <div class="por"><span>80%</span></div>
+		  </div>
+		  <div class="skill-item small-12 medium-6 large-4 columns " data-category="frontend"  >
+		    <h4 class="skillname"><a href="">Angular Js</a></h4>
+		    <div class="por"><span>80%</span></div>
+		  </div>
+		   <div class="skill-item small-12 medium-6 large-4 columns" data-category="frontend"  >
+		    <h4 class="skillname"><a href="">Backbone Js</a></h4>
+		    <div class="por"><span>80%</span></div>
+		  </div>
+		  <div class="skill-item small-12 medium-6 large-4 columns " data-category="backend" >
+		    <h4 class="skillname"><a href="">Python</a></h4>
+			<div class="por"><span>80%</span></div>
+		  </div>
+		   <div class="skill-item small-12 medium-6 large-4 columns" data-category="backend" >
+		    <h4 class="skillname"><a href="">PHP</a></h4>
+			<div class="por"><span>80%</span></div>
+		  </div>
+		  <div class="skill-item small-12 medium-6 large-4 columns" data-category="backend" >
+		    <h4 class="skillname"><a href="">Django</a></h4>
+			<div class="por"><span>80%</span></div>
+		  </div>
+		  <div class="skill-item small-12 medium-6 large-4 columns" data-category="backend" >
+		    <h4 class="skillname"><a href="">Java</a></h4>
+			<div class="por"><span>80%</span></div>
+		  </div>
+		   <div class="skill-item small-12 medium-6 large-4 columns" data-category="mobile" >
+		    <h4 class="skillname"><a href="">Android</a></h4>
+			<div class="por"><span>80%</span></div>
+		  </div>
 		</div>
 		
-		<div class="row formemail">
-				<form action="">
-				    <div class="small-12 medium-12 large-12 columns">
-				      <div class="row collapse">
-				        <div class="small-6 emailInput columns">
-				          <input type="email" placeholder="example@email.com" id="email_input"/>
-				         
-				        </div>
-				        <div class="small-4 nameInput columns">
-				         	<input type="text" placeholder="Name" id="name_input"/>				       		
-				        </div>
-				        <div class="small-2 columns submitInput">
-				        	
-				        	<input type="submit" class="postfix submit" value=">" id="enviar">
-				        </div>
-				      </div>
-				    </div>
-				</form>
-		</div>
-		<div data-alert class="alert-box success radius " style ="width: 30%; margin: 0 auto; font-size: 18px;" id="alert">
-		  Gracias, en 5 minutos me pondré en contacto contigo.
-		  <a href="#" class="close"  id="close">&times;</a>
-		</div>
-			
+	</div>
+		
+
 	</section>
+		
+
+
+
 
 	<section class="blog">
-		<h2>Soy Bloguero</h2>
-		<section class="posts" >
-
-			
-			<article class="post row" >
-				<figure class="imgpost th small-4 columns">
-					<img src="" alt="">
-				</figure>
-				<div class="content small-8 columns">
-					<span class="title">
-						<a href="">Title of my post</a>
-						
-					</span>
-					<p class="resume">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, illum, temporibus impedit voluptas optio deleniti iste sed quis ex eos molestiae sequi quasi ratione. Nisi labore aut accusamus adipisci tempora.
-						
-						
-					</p>
-					<a href="post.html" class="plus-icon"><span class="icon-plus-circle"></span></a>
-				</div>
-				
-			</article>
-			<article class="post row" >
-				<figure class="imgpost th small-4 columns">
-					<img src="" alt="">
-				</figure>
-				<div class="content small-8 columns">
-					<span class="title">
-						<a href="">Title of my post</a>
-						
-					</span>
-					<p class="resume">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, illum, temporibus impedit voluptas optio deleniti iste sed quis ex eos molestiae sequi quasi ratione. Nisi labore aut accusamus adipisci tempora.
-						
-						
-					</p>
-					<a href="post.html" class="plus-icon"><span class="icon-plus-circle"></span></a>
-				</div>
-				
-			</article>
-			<article class="post row" >
-				<figure class="imgpost th small-4 columns">
-					<img src="" alt="">
-				</figure>
-				<div class="content small-8 columns">
-					<span class="title">
-						<a href="">Title of my post</a>
-						
-					</span>
-					<p class="resume">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, illum, temporibus impedit voluptas optio deleniti iste sed quis ex eos molestiae sequi quasi ratione. Nisi labore aut accusamus adipisci tempora.
-						
-						
-					</p>
-					<a href="post.html" class="plus-icon"><span class="icon-plus-circle"></span></a>
-				</div>
-				
-			</article>
-			
 		
-			
 			
         
 
@@ -180,6 +164,7 @@
 	</footer>
 	<script src="foundation/js/vendor/jquery.js"></script>
     <script src="foundation/js/foundation.min.js"></script>
+    <script src="js/isotope.pkgd.js"></script>
     <script src="js/main.js"></script>
     <script>
       $(document).foundation();
