@@ -30,5 +30,20 @@ $(function(){
     layoutMode: 'fitRows',
   });
 
+  $('#filters').on( 'click', 'button', function() {
+    var filterValue = $( this ).attr('data-filter');
+    // use filterFn if matches value
+    //filterValue = filterFns[ filterValue ] || filterValue;
+    $container.isotope({ filter: filterValue });
+  });
+
+/*****************Initialize Masonry************/
+
+	var $containerPost = $('.postContainer');
+	// initialize
+	$containerPost.masonry({
+	  columnWidth: 5,
+	  itemSelector: '.post'
+	});
 
 });

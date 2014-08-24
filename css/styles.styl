@@ -72,7 +72,9 @@ header
 	a
 		padding 0.5em
 .skill
-	margin-top 2em
+	margin-bottom 5em
+	padding 1em
+	background #fbfbfb
 	h2
 		text-align center
 		background black
@@ -102,8 +104,104 @@ header
 .por
 	display inline-block
 	padding 0em 1em
-	
 
+
+.blog
+	h2
+		text-align center
+		background black
+		color white
+		padding 0em 1em
+		width 30%
+		margin 0 auto
+		margin-bottom 1em
+.postContainer
+	width 100%
+	margin 0 auto
+.post
+	margin-bottom 3em
+	width 33%
+.postTitle
+	font-weight bold
+	color gris_oscuro
+	border-bottom 1px solid gris_claro
+.imgPost
+	width 100%
+	margin 0
+	height auto
+	img
+		width 100%
+		height 250px
+.date
+	span
+		color gris_claro
+		line-height 1.7
+	p
+		display inline-block
+		float right
+		margin 0 auto
+		color gris_claro
+
+/*****************Estilos del post ***********************/
+.articulo
+	margin-top 4.5em
+.headerArticle
+	width 100%
+	background: rgba(0, 0, 0, 0.7);
+	.imgArt
+		width 50%
+		margin 0 auto
+		position relative
+.content
+	width 70%
+	margin 0 auto
+.title
+	text-align center
+	h1
+		color black
+		margin 0 auto
+		font-weight bold
+.resume
+	border-bottom 1px solid gris_claro
+	margin-top 1em
+	p
+		font-weight bold
+		font-size 1.2em
+.paragraph
+	margin-top 2em
+	margin-bottom 2em
+	border-bottom 1px solid gris_claro
+
+.share
+	margin-top 1em
+	a
+		padding 1em
+		color white
+
+.blueFace
+	background #3b5999
+
+.redGPlus
+	background #de4b39
+
+.blueTw
+	background #60a9de
+.user
+	margin-top 3em
+.avatarTw
+	width 15%
+	display inline-block
+.bioTw
+	display inline-block
+	width 70%
+.colorBlueTw
+	color #60a9de
+
+@media screen and (max-width:1000px)
+
+	.post
+		width 40%
+		margin-left 3em
 
 @media screen and (max-width:800px)
 
@@ -119,6 +217,10 @@ header
 		h4	
 			width 100%
 
+@media screen and (max-width:720px)
+	.post
+		width 80%
+		margin-left 10%
 
 @media screen and (max-width:600px)
 	
@@ -137,6 +239,9 @@ header
 	.avatar
 		width 50%
 		right 0em
+	.post
+		width 80%
+		margin-left 10%
 
 @media screen and (max-width:400px)
 	.desBio
@@ -163,3 +268,6 @@ header
 			font-size 0.9em
 		h4
 			font-size 0.8em
+	.post
+		width 100%
+		margin-left 0
