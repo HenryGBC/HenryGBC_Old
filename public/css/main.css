@@ -299,6 +299,27 @@ header h1:after {
   border: 1.5px solid #343434;
   box-shadow: 0px 1px 1px 0px;
 }
+.subscribe h4 {
+  color: #27282d;
+  border-bottom: 1px solid #27282d;
+  width: 50%;
+  padding: 5px;
+}
+.subscribe span {
+  padding: 5px;
+}
+.send {
+  margin-top: 30px;
+  text-align: center;
+}
+.send a {
+  position: relative;
+  top: 10px;
+  background: #435555;
+  color: #fff;
+  padding: 10px;
+  text-transform: uppercase;
+}
 @media screen and (max-width: 800px) {
   header h1:before {
     width: 0px;
