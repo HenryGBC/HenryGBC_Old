@@ -197,7 +197,7 @@ padding: 50px;
 	text-decoration: underline;
 }
 .logo{
-	background: url("http://henrygbc.com/public/img/logojs.png");
+	background: url("https://henrygbc.github.io/public/img/logojs.png");
 	background-repeat: no-repeat;
 	width: 100px;
 	height: 100px;
@@ -211,37 +211,37 @@ padding: 50px;
 }
 @-webkit-keyframes logo{
 	0%{
-		background: url("http://henrygbc.com/public/img/logojs.png");
+		background: url("https://henrygbc.github.io/public/img/logojs.png");
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
 	20%{
-		background: url("http://henrygbc.com/public/img/logojs.png");
-		background: url("http://henrygbc.com/public/img/angular.png");
+		background: url("https://henrygbc.github.io/public/img/logojs.png");
+		background: url("https://henrygbc.github.io/public/img/angular.png");
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
 	40%{
-		background: url("http://henrygbc.com/public/img/angular.png");
-		background: url("http://henrygbc.com/public/img/nodejs.png");
+		background: url("https://henrygbc.github.io/public/img/angular.png");
+		background: url("https://henrygbc.github.io/public/img/nodejs.png");
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
 	60%{
-		background: url("http://henrygbc.com/public/img/nodejs.png");
-		background: url("http://henrygbc.com/public/img/react.png");
+		background: url("https://henrygbc.github.io/public/img/nodejs.png");
+		background: url("https://henrygbc.github.io/public/img/react.png");
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
 	80%{
-		background: url("http://henrygbc.com/public/img/react.png");
-		background: url("http://henrygbc.com/public/img/python.png");
+		background: url("https://henrygbc.github.io/public/img/react.png");
+		background: url("https://henrygbc.github.io/public/img/python.png");
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
 	100%{
-		background: url("http://henrygbc.com/public/img/python.png");
-		background: url("http://henrygbc.com/public/img/django.png");
+		background: url("https://henrygbc.github.io/public/img/python.png");
+		background: url("https://henrygbc.github.io/public/img/django.png");
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
@@ -249,37 +249,37 @@ padding: 50px;
 
 @-moz-keyframes logo{
 	0%{
-		background: url("http://henrygbc.com/public/img/logojs.png");
+		background: url("https://henrygbc.github.io/public/img/logojs.png");
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
 	20%{
-		background: url("http://henrygbc.com/public/img/logojs.png");
-		background: url("http://henrygbc.com/public/img/angular.png");
+		background: url("https://henrygbc.github.io/public/img/logojs.png");
+		background: url("https://henrygbc.github.io/public/img/angular.png");
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
 	40%{
-		background: url("http://henrygbc.com/public/img/angular.png");
-		background: url("http://henrygbc.com/public/img/nodejs.png");
+		background: url("https://henrygbc.github.io/public/img/angular.png");
+		background: url("https://henrygbc.github.io/public/img/nodejs.png");
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
 	60%{
-		background: url("http://henrygbc.com/public/img/nodejs.png");
-		background: url("http://henrygbc.com/public/img/react.png");
+		background: url("https://henrygbc.github.io/public/img/nodejs.png");
+		background: url("https://henrygbc.github.io/public/img/react.png");
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
 	80%{
-		background: url("http://henrygbc.com/public/img/react.png");
-		background: url("http://henrygbc.com/public/img/python.png");
+		background: url("https://henrygbc.github.io/public/img/react.png");
+		background: url("https://henrygbc.github.io/public/img/python.png");
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
 	100%{
-		background: url("http://henrygbc.com/public/img/python.png");
-		background: url("http://henrygbc.com/public/img/django.png");
+		background: url("https://henrygbc.github.io/public/img/python.png");
+		background: url("https://henrygbc.github.io/public/img/django.png");
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
@@ -287,37 +287,37 @@ padding: 50px;
 
 @keyframes logo{
 	0%{
-		background: url("http://henrygbc.com/public/img/logojs.png");
+		background: url("https://henrygbc.github.io/public/img/logojs.png");
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
 	20%{
-		background: url("http://henrygbc.com/public/img/logojs.png");
-		background: url("http://henrygbc.com/public/img/angular.png");
+		background: url("https://henrygbc.github.io/public/img/logojs.png");
+		background: url("https://henrygbc.github.io/public/img/angular.png");
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
 	40%{
-		background: url("http://henrygbc.com/public/img/angular.png");
-		background: url("http://henrygbc.com/public/img/nodejs.png");
+		background: url("https://henrygbc.github.io/public/img/angular.png");
+		background: url("https://henrygbc.github.io/public/img/nodejs.png");
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
 	60%{
-		background: url("http://henrygbc.com/public/img/nodejs.png");
-		background: url("http://henrygbc.com/public/img/react.png");
+		background: url("https://henrygbc.github.io/public/img/nodejs.png");
+		background: url("https://henrygbc.github.io/public/img/react.png");
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
 	80%{
-		background: url("http://henrygbc.com/public/img/react.png");
-		background: url("http://henrygbc.com/public/img/python.png");
+		background: url("https://henrygbc.github.io/public/img/react.png");
+		background: url("https://henrygbc.github.io/public/img/python.png");
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
 	100%{
-		background: url("http://henrygbc.com/public/img/python.png");
-		background: url("http://henrygbc.com/public/img/django.png");
+		background: url("https://henrygbc.github.io/public/img/python.png");
+		background: url("https://henrygbc.github.io/public/img/django.png");
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
