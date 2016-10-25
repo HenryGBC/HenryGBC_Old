@@ -12,8 +12,6 @@ $(function() {
             $('.hearts').addClass('block');
             i++;
         }else{
-            console.log(i);
-            console.log($("#correct"+i).is(':checked'))
             if($("#correct"+i).is(':checked')){
                 $('.panel').removeClass('block');
                 $('.panel-'+(i+1).toString()).addClass('block');
