@@ -1,0 +1,348 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.profile{
+	background: rgba(37, 36, 36, 0.9);;
+padding: 50px;
+}
+
+.box-profile{
+	display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+	display: -webkit-flex;
+	-ms-flex-direction: column;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-ms-justify-content: space-around;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+	-ms-align-items: center;
+	-webkit-align-items: center;
+	 align-items: center;
+	background: white;
+	width: 330px;
+	height: 220px;
+	padding: 30px;
+	border-radius: 5px;
+	position: relative;
+
+}
+.box-profile .img-profile{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 1px solid rgba(144, 144, 144, 0.78);
+	padding: 2px;
+}
+.icon-h{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 15px;
+	left: 15px;
+}
+.box-profile h1{
+	font-size: 25px;
+	font-weight: bold;
+}
+.box-profile p{
+	text-align: center;
+	color: gray;
+	font-size: 15px;
+}
+
+.flex-center{
+	display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+	display: -webkit-flex;
+	-ms-flex-direction: column;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-ms-justify-content: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-ms-align-items: center;
+	-webkit-align-items: center;
+	 align-items: center;
+}
+.bio-container{
+	padding: 50px;
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+#container{
+	width: 100%;
+}
+
+.icons{
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-justify-content: space-around;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+	height: 55px;
+	margin-top: 25px;
+}
+.icon{
+    font-size: 50px;
+	transition: font-size 0.3s ease;
+
+}
+.icon:hover{
+	font-size: 55px;
+}
+.twitter{
+	color: #88c9f9;
+}
+.medium{
+	color: #333332;
+}
+.github{
+	color: #333;
+}
+.linkedin-square{
+	color: #006fa6;
+}
+
+.posts{
+	margin-top: 35px;
+	padding: 35px;
+}
+.post{
+	display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+	display: -webkit-flex;
+	-ms-flex-direction: column;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	padding: 15px;
+	border-bottom: 1px solid rgba(206, 206, 206, 0.75);
+}
+
+.post a{
+	color: black;
+	font-size: 25px;
+	text-decoration: none;
+	margin-bottom: 5px;
+}
+.post span{
+	font-size: 12px;
+	color: gray;
+}
+
+.post a:hover{
+	text-decoration: underline;
+}
+.logo{
+	background: url("https://henrygbc.github.io/public/img/logojs.png");
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	background-size: contain;
+	border-radius: 50%;
+	-moz-animation: logo 15s infinite;
+	-webkit-animation: logo 15s infinite;
+	animation: logo 15s infinite;
+	border: 1px solid rgba(183, 183, 183, 0.78);
+    margin-top: 17px;
+}
+@-webkit-keyframes logo{
+	0%{
+		background: url("https://henrygbc.github.io/public/img/logojs.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	20%{
+		background: url("https://henrygbc.github.io/public/img/logojs.png");
+		background: url("https://henrygbc.github.io/public/img/angular.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	40%{
+		background: url("https://henrygbc.github.io/public/img/angular.png");
+		background: url("https://henrygbc.github.io/public/img/nodejs.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	60%{
+		background: url("https://henrygbc.github.io/public/img/nodejs.png");
+		background: url("https://henrygbc.github.io/public/img/react.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	80%{
+		background: url("https://henrygbc.github.io/public/img/react.png");
+		background: url("https://henrygbc.github.io/public/img/python.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	100%{
+		background: url("https://henrygbc.github.io/public/img/python.png");
+		background: url("https://henrygbc.github.io/public/img/django.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+}
+
+@-moz-keyframes logo{
+	0%{
+		background: url("https://henrygbc.github.io/public/img/logojs.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	20%{
+		background: url("https://henrygbc.github.io/public/img/logojs.png");
+		background: url("https://henrygbc.github.io/public/img/angular.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	40%{
+		background: url("https://henrygbc.github.io/public/img/angular.png");
+		background: url("https://henrygbc.github.io/public/img/nodejs.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	60%{
+		background: url("https://henrygbc.github.io/public/img/nodejs.png");
+		background: url("https://henrygbc.github.io/public/img/react.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	80%{
+		background: url("https://henrygbc.github.io/public/img/react.png");
+		background: url("https://henrygbc.github.io/public/img/python.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	100%{
+		background: url("https://henrygbc.github.io/public/img/python.png");
+		background: url("https://henrygbc.github.io/public/img/django.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+}
+
+@keyframes logo{
+	0%{
+		background: url("https://henrygbc.github.io/public/img/logojs.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	20%{
+		background: url("https://henrygbc.github.io/public/img/logojs.png");
+		background: url("https://henrygbc.github.io/public/img/angular.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	40%{
+		background: url("https://henrygbc.github.io/public/img/angular.png");
+		background: url("https://henrygbc.github.io/public/img/nodejs.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	60%{
+		background: url("https://henrygbc.github.io/public/img/nodejs.png");
+		background: url("https://henrygbc.github.io/public/img/react.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	80%{
+		background: url("https://henrygbc.github.io/public/img/react.png");
+		background: url("https://henrygbc.github.io/public/img/python.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	100%{
+		background: url("https://henrygbc.github.io/public/img/python.png");
+		background: url("https://henrygbc.github.io/public/img/django.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+}
+
+.code{
+	display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+	display: -webkit-flex;
+	-ms-justify-content: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-ms-align-items: center;
+	-webkit-align-items: center;
+	 align-items: center;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(206, 206, 206, 0.75);
+	border-top: 1px solid rgba(206, 206, 206, 0.75);
+	padding-top: 0px;
+
+}
+.code span{
+	font-size: 110px;
+    margin-top: 20px;
+    margin-right: 25px;
+}
