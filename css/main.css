@@ -78,6 +78,7 @@ textarea {
     justify-content: center;
     align-items: flex-end;
     color: #fff;
+    background-position: center center;
 }
 .first-section .content{
     font-family: mono;
@@ -188,8 +189,27 @@ textarea {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-
+@media only screen and (max-width: 940px) {
+    .content-section{
+        flex-direction: column;
+    }
+    .content-section .title{
+        width: 100%;
+        min-height: 400px;
+        order: 1;
+    }
+    .content-section .description{
+        width: 100%;
+        order: 2;
+    }
+    .third-section .description .works .work {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .third-section .description .works .work {
+        width: 100%;
+    }
 }
 
 @media print,
