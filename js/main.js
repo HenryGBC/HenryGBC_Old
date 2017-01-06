@@ -1,4 +1,9 @@
 
 $(document).ready(function(){
-	console.log('epa');
+	$('.nav-url').click(function(){
+		 var href = $(this).attr('data-href');
+		 $('html, body').animate({
+            scrollTop: $(href).offset().top
+        }, 1000);
+	});
 });

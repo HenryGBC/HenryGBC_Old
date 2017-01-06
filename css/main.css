@@ -1,4 +1,6 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+@import "font-awesome.min.css";
+
 @font-face {
     font-family: mono;
     src: url('../fonts/VCR_OSD_MONO_1.001.ttf');
@@ -7,6 +9,7 @@
     font-family: roboto-regular;
     src: url('../fonts/roboto/Roboto-Regular.ttf');
 }
+
 body{
     font-family: roboto-regular;
 }
@@ -67,7 +70,10 @@ textarea {
    ========================================================================== */
 
 
-
+.nav-url{
+    cursor: pointer;
+    text-decoration: underline;
+}
 .first-section{
     background: url('../img/robot.jpg');
     background-repeat: no-repeat;
@@ -134,11 +140,40 @@ textarea {
     box-sizing: border-box;
     
 }
+.second-section{ 
+    position: relative;
+}
+.second-section .img-about{ 
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    top: 20px;
+}
+.second-section .img-about img{ 
+    border-radius: 50%;
+    width: 140px;
+}
 .second-section .title{
     background-color: #B8C7D0;
 }
 .second-section .description{
-    padding: 100px;
+    padding: 42px 70px 0px 60px;
+}
+.second-section .description .title-about{
+    font-family: mono;
+    font-size: 25px;
+    text-align: left;
+    width: 200px;
+    margin: 0 auto;
+}
+.second-section .description .content-double{ 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.second-section .description .content-double .content-double__section{
+    width: 50%;
 }
 .second-section .title .urls a{
     color: #000;
@@ -147,6 +182,7 @@ textarea {
 .third-section .title{
     background-color: #3C3C3C;
     color: #fff;
+    margin-left: -1px;
 }
 .third-section .title .urls a{
     color: #fff;
@@ -192,10 +228,13 @@ textarea {
     -moz-transition:height 0.4s;
     transition: height 0.4s;
 }
+.third-section .description .works .work  .cover span:nth-child(2){
+    margin-bottom: 10px;
+}
 .third-section .description .works .work:hover .cover{
     height: 100%;
 
-}
+}    
 .third-section .description .github{
     font-size: 31px;
     font-family: mono;
@@ -205,6 +244,76 @@ textarea {
 }
 .third-section .description .github p a{
     color: #018BB5;
+}
+
+
+.fourth-section .title{
+    background-color: #759895;  
+}
+.fourth-section .title .urls a{
+    color: #000;
+}
+.fourth-section .description{
+    padding: 100px 40px;
+}
+.fourth-section .description .text{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.fourth-section .description h2 {
+    font-family: mono;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.fourth-section .description .medium{
+    font-size: 31px;
+    font-family: mono;
+    text-align: center;
+}
+.fourth-section .description .medium p a{
+    color: #018BB5;
+}
+.fourth-section .description .posts .post{
+    display: block;
+    color: #000;
+    font-size: 1.4em;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.five-section .title{
+    background-color: #BFBFBF;  
+}
+.five-section .title .urls a{
+    color: #000;
+}
+.five-section .description{
+   padding: 100px 40px;
+}
+.five-section .description .text{
+    text-align: center;
+    font-size: 1.4em;
+    font-family: mono;
+}
+.five-section .description .links{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+.five-section .description a{
+    color: #000;
+    margin: 10px;
+    font-size: 3em;
+    -webkit-transition: all 0.4s;
+    -moz-transition:all 0.4s;
+    transition: all 0.4s;
+}
+.five-section .description a:hover{
+     -ms-transform: translate(-5px); 
+    -webkit-transform: translate(-5px); 
+    transform: translateY(-5px);
 }
 /* ==========================================================================
    Media Queries
@@ -223,12 +332,30 @@ textarea {
         width: 100%;
         order: 2;
     }
+
     .third-section .description .works .work {
         width: 50%;
     }
+    .third-section .description .works .work  .cover{
+        height: 100%;
+    }
+    .second-section .img-about{ 
+        display: none;
+    }
+
+
 }
 @media only screen and (max-width: 480px) {
     .third-section .description .works .work {
+        width: 100%;
+    }
+    .second-section .description {
+        padding: 100px 40px;
+    }
+    .second-section .description .content-double{
+        flex-direction: column;
+    }
+    .second-section .description .content-double .content-double__section{
         width: 100%;
     }
 }
@@ -288,6 +415,12 @@ textarea {
     *zoom: 1;
 }
 
+.text-center{
+    text-align: center;
+}
+.font-mono{
+    font-family: mono;
+}
 /* ==========================================================================
    Print styles
    ========================================================================== */

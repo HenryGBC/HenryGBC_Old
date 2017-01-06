@@ -9,8 +9,7 @@
         <title>HenryGBC</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
+        <link rel="shortcut icon" href="favicon.png">
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
 
@@ -27,46 +26,100 @@
                 <p>Considero que las personas se caracterizan por su pasión, la mia es CREAR.</p>
                 <p>Frontend Developer</p>
                 <div class="urls">
-                    <a href="#about">About</a>
-                    <a href="#about">Works</a>
-                    <a href="#about">Blog</a>
-                    <a href="#about">Contact</a>
+                    <a class="nav-url" data-href="#about">About</a>
+                    <a class="nav-url" data-href="#works">Works</a>
+                    <a class="nav-url" data-href="#blog">Blog</a>
+                    <a class="nav-url" data-href="#contact">Contact</a>
                 </div>
             </div>
 
 
         </section>
 
-        <section class="content-section second-section">
+        <section class="content-section second-section" id="about">
             <div class="title">
                 <h2>About</h2>
                 <div class="urls">
-                    <a href="#about">Works</a>
-                    <a href="#about">Blog</a>
-                    <a href="#about">Contact</a>
+                    <a class="nav-url" data-href="#works">Works</a>
+                    <a class="nav-url" data-href="#blog">Blog</a>
+                    <a class="nav-url" data-href="#contact">Contact</a>
                 </div>
             </div>
+            
+            <div class="img-about">
+                <img  src="img/yo.jpg" alt="">
+            </div>
             <div class="description">
-                <h3>¿Quien Soy?</h3>
-                <p>Mi nombre es Henry Bravo, soy Ingeniero Informatico, desarrollador web y aprendiz de movil.</p>
-                <h3>Experiencia</h3>
-                <p>Mas de 4 años de experiencia en desarrollo web, empezando como desarrollador Backend, luego decantandome por el lado
-                    del frontend, trabajando como freelance, Agencias y Startups</p>
-                <h3>Skills</h3>
-                <p>Del Lado del <strong>Backend</strong> manejo lenguajes como <strong>Python y JavaScript con Node Js,</strong>  y a su vez frameworks como
-                    <strong>Django, Express..</strong> </p>
-                <p>Del Lado del Frontend desde <strong>Javascript Vanilla, jquery</strong> y mas de 2 años de experiencia con <strong>AngularJs</strong>
-                    Actualmente aprendiendo sobre <strong>React, redux y Angular2</strong> a su vez también manejo de preprocesadores como <strong>Less, Sass y Stylus</strong>
+                <h3 class="title-about">Desarrollador Por Pasión Por Diversión Por Vocación
+                                
+                </h3>
+                <p>Como menciono en el encabezado, pienso que las personas se caracterizan por su <strong>pasión,</strong> 
+                    es lo que nos distingue y el crear algo mediante código es una de las cosas que me apasiona, no me importa hora o día 
+                    para poder sentarme y codear.
                 </p>
-                <p>Manejo de varios paradigmas de programación como lo son orientado a objetos, y programación funcional, y varios patrones de diseño.</p>
+                <p>Esto lleva a un momento de <strong>diversión</strong> y de felicidad, ya que si no eres feliz en lo que trabajas, huye y busca otra cosa</p>
+                <p>Soy Ingeniero informático, desarrollador web y aprendiz de movil, es lo que elegí como <strong>vocación</strong>, por ende siempre mantengo
+                    la profesionalidad en todo lo que hago.
+                </p>
+                <p>En mis mas de 4ños de experiencia empecé como <strong>Backend</strong>, manejando lenguajes y Frameworks como:</p>
+                <ul>
+                    <li><strong>PHP</strong>  </li>
+                    <li><strong>Python y su framework Django</strong>  </li>
+                    <li><strong>Javascript con NodeJs, Express</strong>  </li>
+                </ul>
+                <p>También manejando bases de datos Relacionales y No Relacionales como MongoDB</p>
 
-                <p>Soy desarrollador por <strong>Pasión, Diversión y Vocación.</strong></p>
+                <p>Luego los últimos 2 años y algo mas me incliné por el <strong>frontend</strong> que es el area de la cual estoy enamorado actualmente. 
+                </p>
+                <div class="content-double">
+                    <div class="content-double__section">
+                        <p>Programando y utlizando librerias o Frameworks como:  </p>
+                        <ul>
+                            <li><strong>Javascript, VanillaJs</strong></li>
+                            <li><strong>Adaptandome al estandar Ecmascript6</strong></li>
+                            <li><strong>Jquery</strong></li>
+                            <li><strong>BackboneJs</strong></li>
+                            <li><strong>Amplia experiencia en AngularJS</strong></li>
+                            <li><strong>TypeScript</strong></li>
+                        </ul>
+                    </div>
+                    <div class="content-double__section">
+                        <p>Actualmente aprendiendo: </p>
+                        <ul>
+                            <li><strong>React</strong></li>
+                            <li><strong>Redux</strong></li>
+                            <li><strong>Angular2</strong></li>
+                        </ul>
+                    </div>
+                </div>
+               
+                <div class="content-double">
+                    <div class="content-double__section">
+                        <p>Manejo de Preprocesadores como lo son: </p>
+                        <ul>
+                            <li><strong>Less</strong></li>
+                            <li><strong>Sass</strong></li>
+                            <li><strong>Stylus</strong></li>
+                        </ul>
+                    </div>
+                    <div class="content-double__section">
+                        <p>Y manejo de herramientas de desarrollo como: </p>
+                        <ul>
+                            <li><strong>npm</strong></li>
+                            <li><strong>Gulp</strong></li>
+                            <li><strong>Bower</strong></li>
+                            <li><strong>Webpack</strong></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                
 
-                <p>PD: Amo también el marketing digital.</p>
-
+                
+                <p>En fin, amo programar <i class="fa fa-heart" style="color: #E45757;" aria-hidden="true"></i></p>
             </div>
         </section>
-        <section class="content-section third-section">
+        <section class="content-section third-section" id="works">
             
             <div class="description">
                <h2>Last Works</h2>
@@ -133,7 +186,9 @@
                </div>
                 <p style="font-size: 25px;">Dejemos que el código hable</p>
                 <div class="github">
-                    <p>Github: 
+                    <p>
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                        <span>Github</span> 
                         <a target="_blank" href="https://github.com/HenryGBC">HenryGBC</a>
                     </p>
                 </div>
@@ -141,17 +196,73 @@
             <div class="title">
                 <h2>Works</h2>
                 <div class="urls">
-                    <a href="#about">About</a>
-                    <a href="#about">Blog</a>
-                    <a href="#about">Contact</a>
+                    <a class="nav-url" data-href="#about">About</a>
+                    <a class="nav-url" data-href="#blog">Blog</a>
+                    <a class="nav-url" data-href="#contact">Contact</a>
+                </div>
+            </div>
+        </section>
+        <section class="content-section fourth-section" id="blog">
+            <div class="title">
+                <h2>Blog</h2>
+                <div class="urls">
+                    <a class="nav-url" data-href="#about">About</a>
+                    <a class="nav-url" data-href="#works">Works</a>
+                    <a class="nav-url" data-href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="description">
+                <p class="text">Me gusta compartir y hablar sobre código, una herramienta o framework nuevo, en fin intento escribir lo que aprendo dia a dia, y estoy empezando a utilizar mediúm para esto. </p>
+                <h2>Last Stories</h2>
+
+                <div class="posts">
+                    <a class="post" href="https://medium.com/@HenryGBC/porque-si-se-puede-programar-funcionalmente-con-javascript-8c3cb3c52860">
+                        <span>Porque si se puede programar funcionalmente con javascript</span>
+                    </a>
+                    <a class="post" href="https://medium.com/@HenryGBC/boilerplate-para-angular-1-5-con-webpack-y-es6-3d735dc8ac76#.qm25x5qqt">
+                        <span>Boilerplate para Angular 1.5 con webpack y ES6</span>
+                    </a>
+                    <a class="post" href="https://medium.com/@HenryGBC/angular2-est%C3%A1-escrito-sobre-typescript-y-si-hay-que-aprenderlo-85b31b5372a3#.uqosq6kbg">
+                        <span>Angular2 está escrito sobre TypeScript, y si, hay que aprenderlo.</span>
+                    </a>
+                </div>
+
+                <div class="medium">
+                    <p>
+                        <i class="fa fa-medium" aria-hidden="true"></i>
+                        <span>Medium</span> 
+                        <a target="_blank" href="https://medium.com/@HenryGBC">HenryGBC</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="content-section five-section" id="contact">
+            
+            <div class="description">
+                <p class="text">Me pueden contactar en:</p>
+                <div class="links">
+                    <a target="_blank" href="https://ve.linkedin.com/in/henry-gabriel-bravo-casanova-b9315583"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://twitter.com/HenryGBC"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a target="_blank" href="mailto:henry.bravo89@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                </div>
+                <p class="text">Y recuerda, mi código y posts en:</p>
+                <div class="links">
+                    <a target="_blank" href="https://github.com/HenryGBC"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://medium.com/@HenryGBC"><i class="fa fa-medium" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="title">
+                <h2>Contact</h2>
+                <div class="urls">
+                    <a class="nav-url" data-href="#about">About</a>
+                    <a class="nav-url" data-href="#works">Works</a>
+                    <a class="nav-url" data-href="#blog">Blog</a>
                 </div>
             </div>
         </section>
         
-
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-        <script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
         <script src="js/main.js"></script>
 
     </body>
