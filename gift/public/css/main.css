@@ -1,0 +1,126 @@
+html{
+  height: 100%;
+}
+body {
+    background: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.blur{
+        background: rgba(64, 64, 64, 0.38);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+.content{
+    z-index: 10;
+}
+.panel{
+    width: 700px;
+    margin: 0 auto;
+    /* margin-top: 200px; */
+    background: white;
+    padding: 33px;
+    display: none;
+     background: rgba(255, 255, 255, 0.83);
+    /* display: flex; */
+}
+.panel-init{
+    display: block;
+}
+
+.block{
+    display: block !important;
+}
+.none{
+    display: none !important;
+}
+h1{
+   font-size: 19px;
+    margin: 0;
+}
+
+.buttons{
+        text-align: right;
+    margin-top: 30px;
+}
+
+.hearts-panel{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hearts-panel img{
+    width: 45px;   
+}
+.delorean{
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+.hearts{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    display: none;
+}
+
+.hearts img{
+    width: 60px;   
+}
+
+label{
+    color: black;
+}
+
+.panel-11{
+    text-align: center;
+}
+
+.panel-11 img{
+    max-width: 220px;
+    margin: 15px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 750px) {
+  .panel{
+        width: 80%;
+        margin: 0 auto;
+        /* display: flex; */
+    }
+    
+    h1 {
+        font-size: 17px;
+        margin: 0;
+    }
+    .hearts-panel img {
+        width: 50px;
+    }
+    .hearts{
+        right: 25px;
+    }
+    .hearts img {
+        width: 35px;
+    }
+    .panel-10 img {
+        width: 180px;
+        margin: 10px 0;
+    }
+}
